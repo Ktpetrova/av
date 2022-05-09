@@ -1,0 +1,202 @@
+ctjsVersion: 2.0.2
+notes: /* empty */
+libs:
+  place:
+    gridX: 1024
+    gridY: 1024
+  fittoscreen:
+    mode: scaleFit
+  pointer: {}
+  keyboard: {}
+  keyboard.polyfill: {}
+  sound.howler: {}
+textures:
+  - lastmod: 1652099457959
+    type: texture
+    name: pix
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 80
+    imgHeight: 80
+    width: 80
+    height: 80
+    offx: 0
+    offy: 0
+    origname: iJ3KMzTRwNqJLqK.png
+    shape: rect
+    left: 0
+    right: 80
+    top: 0
+    bottom: 80
+    uid: J3KMzTRwNqJLqK
+    padding: 1
+    group: !<tag:yaml.org,2002:js/undefined> ''
+  - lastmod: 1652099525751
+    type: texture
+    name: cr
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 0
+      - 0
+    marginx: 0
+    marginy: 0
+    imgWidth: 48
+    imgHeight: 80
+    width: 48
+    height: 80
+    offx: 0
+    offy: 0
+    origname: iBbLJjLrTmtzB2j.png
+    shape: rect
+    left: 0
+    right: 48
+    top: 0
+    bottom: 80
+    uid: BbLJjLrTmtzB2j
+    padding: 1
+    group: !<tag:yaml.org,2002:js/undefined> ''
+skeletons: []
+templates:
+  - type: template
+    name: pix
+    depth: 0
+    oncreate: ''
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    texture: J3KMzTRwNqJLqK
+    visible: true
+    extends:
+      cgroup: brenojogador
+    lastmod: 1652099936253
+    uid: kHjdCt8mntrc33
+sounds: []
+styles: []
+rooms:
+  - type: room
+    oncreate: ''
+    onstep: ''
+    ondraw: ''
+    onleave: ''
+    gridX: 64
+    gridY: 64
+    width: 1280
+    height: 720
+    name: fluminense
+    backgrounds: []
+    copies:
+      - x: 64
+        'y': 64
+        uid: kHjdCt8mntrc33
+        exts: {}
+      - x: 384
+        'y': 64
+        uid: kHjdCt8mntrc33
+        exts: {}
+      - x: 896
+        'y': 64
+        uid: kHjdCt8mntrc33
+        exts: {}
+      - x: 640
+        'y': 64
+        uid: kHjdCt8mntrc33
+        exts: {}
+      - x: 384
+        'y': 320
+        uid: kHjdCt8mntrc33
+        exts: {}
+      - x: 640
+        'y': 320
+        uid: kHjdCt8mntrc33
+        exts: {}
+      - x: 896
+        'y': 320
+        uid: kHjdCt8mntrc33
+        exts: {}
+      - x: 64
+        'y': 320
+        uid: kHjdCt8mntrc33
+        exts: {}
+      - x: 64
+        'y': 512
+        uid: kHjdCt8mntrc33
+        exts: {}
+      - x: 384
+        'y': 512
+        uid: kHjdCt8mntrc33
+        exts: {}
+      - x: 640
+        'y': 512
+        uid: kHjdCt8mntrc33
+        exts: {}
+      - x: 896
+        'y': 512
+        uid: kHjdCt8mntrc33
+        exts: {}
+      - x: 896
+        'y': 512
+        uid: kHjdCt8mntrc33
+        exts: {}
+    tiles:
+      - depth: -10
+        tiles: []
+        extends: {}
+    extends: {}
+    lastmod: 1652100193547
+    thumbnail: 86Tzd4q5Bw7GQw
+    uid: 86Tzd4q5Bw7GQw
+    restrictCamera: false
+    backgroundColor: 'rgba(13,21,184,0.16)'
+actions: []
+emitterTandems: []
+scripts: []
+starting: 0
+contentTypes: []
+groups:
+  fonts: []
+  textures: []
+  styles: []
+  rooms: []
+  templates: []
+  sounds: []
+  emitterTandems: []
+settings:
+  authoring:
+    author: 'alexia, jhulia ini'
+    site: ''
+    title: pauliso
+    version:
+      - 1
+      - 0
+      - 0
+    versionPostfix: ''
+  rendering:
+    usePixiLegacy: true
+    maxFPS: 60
+    pixelatedrender: false
+    highDensity: true
+    desktopMode: maximized
+  export:
+    windows: true
+    linux: true
+    mac: true
+    functionWrap: false
+    codeModifier: none
+  branding:
+    icon: -1
+    accent: '#446adb'
+    invertPreloaderScheme: true
+  fps: 30
+fonts: []
+palette:
+  - 'rgba(0,0,0,0.16)'
